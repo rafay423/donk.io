@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(85, 85, 85);
+}
+pre{
+  color: white;
+  background: #000;
+  position: absolute;
+  font-size: 25px;
+  /* white-space: pre-line; */
+}
+.disable{
+  background: rgb(196, 195, 195);
+  color: rgb(41, 41, 41);
+  padding: 10px 12px;
+  border: none;
+}
+a{
+  color: white
+}
+div{
+  width: auto;
+}

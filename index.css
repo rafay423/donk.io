@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  padding: 10px 12px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  border: none;
+
+}

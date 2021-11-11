@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title"       content="Donk.io Platformer Game.">
+    <meta property="og:site_name"   content="Donk.io">
+    <meta property="og:url"         content="https://bonkio.raylight.repl.co">
+    <meta property="og:description" content="A Simple Platformer game in HTML & Javascript.">
+    <meta property="og:type"        content="website">
+    <meta property="og:image"       content="https://bonkio.raylight.repl.co/logo.png">
+    <meta name="theme-color" content="#FF00FF" />
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="logo.png" type="image/*">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <canvas style="background: black;"></canvas>
+    <form>
+
+        <input type="number" name="xratio" id="xratio" placeholder="X">
+        <input type="number" name="yratio" id="yratio" placeholder="Y">
+        <input type="button" name="send" id="send" value="SEND DATA">
+        <input type="button" value="GET map" name="get" id="get">
+
+    </form>
+    <a href="./index.html">MENU</a>
+    <select name="obj" id="obj">
+        <option value="Platformer">Platformer</option>
+        <option value="player">player</option>
+        <option value="lava">lava</option>
+        <option value="wall">wall</option>
+        <option value="end">end</option>
+        <option value="eraser">eraser</option>
+    </select>
+    <input type="text" name="name" id="name" placeholder="name">
+    <pre></pre>
+    <button class="disable">Add Map</button>
+</body>
+<script src="./custom.js"></script>
+<link rel="stylesheet" href="custom.css">
+
+</html>
